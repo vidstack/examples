@@ -1,0 +1,15 @@
+.code
+globals.d.ts
+*.png
+*.jpeg
+*.mp4
+*.mp3
+*.vtt
+*.ico
+
+**/dist
+
+.gitignore
+.gitkeep
+.prettierignore
+
