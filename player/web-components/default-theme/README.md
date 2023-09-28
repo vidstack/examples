@@ -9,4 +9,4 @@ customize! We provide the shell and base styles and you provide the content and 
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)][stackblitz-demo]
 
-[stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/player/web-components/default-theme?title=Vidstack%20Player%20-%20Web%20Components%20%28Default%20Theme%29&file=src/main.ts&showSidebar=1
+[stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/web-components/default-theme?title=Vidstack%20Player%20-%20Web%20Components%20%28Default%20Theme%29&file=src/main.ts&showSidebar=1

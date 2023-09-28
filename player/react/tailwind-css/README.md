@@ -12,4 +12,4 @@ you up even more by providing you with easy to use media variants such as `media
 
 [tailwind]: https://tailwindcss.com
 [tailwind-plugin]: https://vidstack.io/docs/player/styling/tailwind
-[stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/player/react/tailwind-css?title=Vidstack%20Player%20-%20React%20%28Tailwind%20CSS%29&file=src/main.ts&showSidebar=1
+[stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/react/tailwind-css?title=Vidstack%20Player%20-%20React%20%28Tailwind%20CSS%29&file=src/main.ts&showSidebar=1
