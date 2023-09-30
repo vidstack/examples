@@ -13,7 +13,7 @@ importers:
         version: 4.1.0(prettier@3.0.3)
       '@types/node':
         specifier: ^16.0.0
-        version: 16.18.54
+        version: 16.18.55
       execa:
         specifier: ^6.0.0
         version: 6.1.0
@@ -49,7 +49,7 @@ importers:
     dependencies:
       '@vidstack/react':
         specifier: ^1.0.0
-        version: 1.0.0(@types/react@18.2.23)(react@18.2.0)
+        version: 1.0.4(@types/react@18.2.23)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -74,13 +74,13 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/react/default-layout:
     dependencies:
       '@vidstack/react':
         specifier: ^1.0.0
-        version: 1.0.0(@types/react@18.2.23)(react@18.2.0)
+        version: 1.0.4(@types/react@18.2.23)(react@18.2.0)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -102,13 +102,13 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/react/default-theme:
     dependencies:
       '@vidstack/react':
         specifier: ^1.0.0
-        version: 1.0.0(@types/react@18.2.23)(react@18.2.0)
+        version: 1.0.4(@types/react@18.2.23)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -133,13 +133,13 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/react/radix+tailwind:
     dependencies:
       '@vidstack/react':
         specifier: ^1.0.0
-        version: 1.0.0(@types/react@18.2.23)(react@18.2.0)
+        version: 1.0.4(@types/react@18.2.23)(react@18.2.0)
       lucide-react:
         specifier: ^0.279.0
         version: 0.279.0(react@18.2.0)
@@ -170,10 +170,10 @@ importers:
         version: 4.1.0(vite@4.4.9)
       autoprefixer:
         specifier: ^10.4.2
-        version: 10.4.16(postcss@8.4.30)
+        version: 10.4.16(postcss@8.4.31)
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       tailwindcss:
         specifier: ^3.0.0
         version: 3.3.3
@@ -185,13 +185,13 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/react/tailwind-css:
     dependencies:
       '@vidstack/react':
         specifier: ^1.0.0
-        version: 1.0.0(@types/react@18.2.23)(react@18.2.0)
+        version: 1.0.4(@types/react@18.2.23)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -213,10 +213,10 @@ importers:
         version: 4.1.0(vite@4.4.9)
       autoprefixer:
         specifier: ^10.4.2
-        version: 10.4.16(postcss@8.4.30)
+        version: 10.4.16(postcss@8.4.31)
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       tailwindcss:
         specifier: ^3.0.0
         version: 3.3.3
@@ -228,7 +228,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/solid/css:
     dependencies:
@@ -240,14 +240,14 @@ importers:
         version: 1.7.12
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vite-plugin-solid:
         specifier: ^2.7.0
         version: 2.7.0(solid-js@1.7.12)(vite@4.4.9)
@@ -259,14 +259,14 @@ importers:
         version: 1.7.12
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vite-plugin-solid:
         specifier: ^2.7.0
         version: 2.7.0(solid-js@1.7.12)(vite@4.4.9)
@@ -281,14 +281,14 @@ importers:
         version: 1.7.12
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vite-plugin-solid:
         specifier: ^2.7.0
         version: 2.7.0(solid-js@1.7.12)(vite@4.4.9)
@@ -303,14 +303,14 @@ importers:
         version: 1.7.12
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       autoprefixer:
         specifier: ^10.4.2
-        version: 10.4.16(postcss@8.4.30)
+        version: 10.4.16(postcss@8.4.31)
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       tailwindcss:
         specifier: ^3.0.0
         version: 3.3.3
@@ -322,7 +322,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vite-plugin-solid:
         specifier: ^2.7.0
         version: 2.7.0(solid-js@1.7.12)(vite@4.4.9)
@@ -334,7 +334,7 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.4.6
@@ -344,25 +344,25 @@ importers:
         version: 5.0.2
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       svelte:
         specifier: ^4.2.0
         version: 4.2.1
       svelte-check:
         specifier: ^3.5.1
-        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.30)(svelte@4.2.1)
+        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.31)(svelte@4.2.1)
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/svelte/default-layout:
     dependencies:
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.4.6
@@ -372,19 +372,19 @@ importers:
         version: 5.0.2
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       svelte:
         specifier: ^4.2.0
         version: 4.2.1
       svelte-check:
         specifier: ^3.5.1
-        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.30)(svelte@4.2.1)
+        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.31)(svelte@4.2.1)
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/svelte/default-theme:
     dependencies:
@@ -393,7 +393,7 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.4.6
@@ -403,19 +403,19 @@ importers:
         version: 5.0.2
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       svelte:
         specifier: ^4.2.0
         version: 4.2.1
       svelte-check:
         specifier: ^3.5.1
-        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.30)(svelte@4.2.1)
+        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.31)(svelte@4.2.1)
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/svelte/tailwind-css:
     dependencies:
@@ -424,7 +424,7 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.4.6
@@ -434,16 +434,16 @@ importers:
         version: 5.0.2
       autoprefixer:
         specifier: ^10.4.2
-        version: 10.4.16(postcss@8.4.30)
+        version: 10.4.16(postcss@8.4.31)
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       svelte:
         specifier: ^4.2.0
         version: 4.2.1
       svelte-check:
         specifier: ^3.5.1
-        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.30)(svelte@4.2.1)
+        version: 3.5.2(@babel/core@7.23.0)(postcss@8.4.31)(svelte@4.2.1)
       tailwindcss:
         specifier: ^3.0.0
         version: 3.3.3
@@ -455,7 +455,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/vue/css:
     dependencies:
@@ -464,7 +464,7 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
       vue:
         specifier: ^3.3.4
         version: 3.3.4
@@ -477,7 +477,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vue-tsc:
         specifier: ^1.8.11
         version: 1.8.15(typescript@5.2.2)
@@ -486,7 +486,7 @@ importers:
     dependencies:
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
       vue:
         specifier: ^3.3.4
         version: 3.3.4
@@ -499,7 +499,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vue-tsc:
         specifier: ^1.8.11
         version: 1.8.15(typescript@5.2.2)
@@ -511,7 +511,7 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
       vue:
         specifier: ^3.3.4
         version: 3.3.4
@@ -524,7 +524,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vue-tsc:
         specifier: ^1.8.11
         version: 1.8.15(typescript@5.2.2)
@@ -536,7 +536,7 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
       vue:
         specifier: ^3.3.4
         version: 3.3.4
@@ -546,10 +546,10 @@ importers:
         version: 4.3.4(vite@4.4.9)(vue@3.3.4)
       autoprefixer:
         specifier: ^10.4.2
-        version: 10.4.16(postcss@8.4.30)
+        version: 10.4.16(postcss@8.4.31)
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       tailwindcss:
         specifier: ^3.0.0
         version: 3.3.3
@@ -561,7 +561,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
       vue-tsc:
         specifier: ^1.8.11
         version: 1.8.15(typescript@5.2.2)
@@ -573,27 +573,27 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/web-components/default-layout:
     dependencies:
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/web-components/default-theme:
     dependencies:
@@ -602,14 +602,14 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
   player/web-components/tailwind-css:
     dependencies:
@@ -618,14 +618,14 @@ importers:
         version: 1.0.0
       vidstack:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.4
     devDependencies:
       autoprefixer:
         specifier: ^10.4.2
-        version: 10.4.16(postcss@8.4.30)
+        version: 10.4.16(postcss@8.4.31)
       postcss:
         specifier: ^8.4.0
-        version: 8.4.30
+        version: 8.4.31
       tailwindcss:
         specifier: ^3.0.0
         version: 3.3.3
@@ -637,7 +637,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: ^4.4.0
-        version: 4.4.9(@types/node@16.18.54)
+        version: 4.4.9(@types/node@16.18.55)
 
 packages:
 
@@ -717,7 +717,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.22.20
       '@babel/helper-validator-option': 7.22.15
-      browserslist: 4.22.0
+      browserslist: 4.22.1
       lru-cache: 5.1.1
       semver: 6.3.1
     dev: true
@@ -1879,7 +1879,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 2.4.6(svelte@4.2.1)(vite@4.4.9)
       debug: 4.3.4
       svelte: 4.2.1
-      vite: 4.4.9(@types/node@16.18.54)
+      vite: 4.4.9(@types/node@16.18.55)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1895,10 +1895,10 @@ packages:
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
-      magic-string: 0.30.3
+      magic-string: 0.30.4
       svelte: 4.2.1
       svelte-hmr: 0.15.3(svelte@4.2.1)
-      vite: 4.4.9(@types/node@16.18.54)
+      vite: 4.4.9(@types/node@16.18.55)
       vitefu: 0.2.4(vite@4.4.9)
     transitivePeerDependencies:
       - supports-color
@@ -1941,8 +1941,8 @@ packages:
     resolution: {integrity: sha512-VeiPZ9MMwXjO32/Xu7+OwflfmeoRwkE/qzndw42gGtgJwZopBnzy2gD//NN1+go1mADzkDcqf/KnFRSjTJ8xJA==}
     dev: true
 
-  /@types/node@16.18.54:
-    resolution: {integrity: sha512-oTmGy68gxZZ21FhTJVVvZBYpQHEBZxHKTsGshobMqm9qWpbqdZsA5jvsuPZcHu0KwpmLrOHWPdEfg7XDpNT9UA==}
+  /@types/node@16.18.55:
+    resolution: {integrity: sha512-Y1zz/LIuJek01+hlPNzzXQhmq/Z2BCP96j18MSXC0S0jSu/IG4FFxmBs7W4/lI2vPJ7foVfEB0hUVtnOjnCiTg==}
     dev: true
 
   /@types/prop-types@15.7.7:
@@ -1968,8 +1968,8 @@ packages:
   /@types/scheduler@0.16.4:
     resolution: {integrity: sha512-2L9ifAGl7wmXwP4v3pN4p2FLhD0O1qsJpvKmNin5VA8+UvNVb447UDaAEV6UdrkA+m/Xs58U1RFps44x6TFsVQ==}
 
-  /@vidstack/react@1.0.0(@types/react@18.2.23)(react@18.2.0):
-    resolution: {integrity: sha512-35811Mu4BC1UHIdcT7d7QSL6pYY3SHcs6rljXBK/bqcfKk7qbPCg687x4Y9q2iot+/0I5+6yYOoLIrNgrU8RFw==}
+  /@vidstack/react@1.0.4(@types/react@18.2.23)(react@18.2.0):
+    resolution: {integrity: sha512-I+H5AIUxDB2gZ/lVXU/WAlTWnfdoa86crj/dtwB5R1jPTn1B6l+ecOxO6Mb8Ub5fpcqY8D2TaBDz92rt1uIQhQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': ^18.0.0
@@ -1991,7 +1991,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.23.0)
       '@types/babel__core': 7.20.2
       react-refresh: 0.14.0
-      vite: 4.4.9(@types/node@16.18.54)
+      vite: 4.4.9(@types/node@16.18.55)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2003,7 +2003,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.9(@types/node@16.18.54)
+      vite: 4.4.9(@types/node@16.18.55)
       vue: 3.3.4
     dev: true
 
@@ -2049,8 +2049,8 @@ packages:
       '@vue/reactivity-transform': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.3
-      postcss: 8.4.30
+      magic-string: 0.30.4
+      postcss: 8.4.31
       source-map-js: 1.0.2
 
   /@vue/compiler-ssr@3.3.4:
@@ -2085,7 +2085,7 @@ packages:
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.3
+      magic-string: 0.30.4
 
   /@vue/reactivity@3.3.4:
     resolution: {integrity: sha512-kLTDLwd0B1jG08NBF3R5rqULtv/f8x3rOFByTDz4J53ttIQEDmALqKqXY0J+XQeN0aV2FBxY8nJDf88yvOPAqQ==}
@@ -2185,19 +2185,19 @@ packages:
       dequal: 2.0.3
     dev: true
 
-  /autoprefixer@10.4.16(postcss@8.4.30):
+  /autoprefixer@10.4.16(postcss@8.4.31):
     resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.22.0
+      browserslist: 4.22.1
       caniuse-lite: 1.0.30001541
       fraction.js: 4.3.6
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.30
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -2258,15 +2258,15 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist@4.22.0:
-    resolution: {integrity: sha512-v+Jcv64L2LbfTC6OnRcaxtqJNJuQAVhZKSJfR/6hn7lhnChUXl4amwVviqN1k411BB+3rRoKMitELRn1CojeRA==}
+  /browserslist@4.22.1:
+    resolution: {integrity: sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001541
-      electron-to-chromium: 1.4.532
+      electron-to-chromium: 1.4.537
       node-releases: 2.0.13
-      update-browserslist-db: 1.0.13(browserslist@4.22.0)
+      update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: true
 
   /buffer-crc32@0.2.13:
@@ -2453,8 +2453,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.532:
-    resolution: {integrity: sha512-piIR0QFdIGKmOJTSNg5AwxZRNWQSXlRYycqDB9Srstx4lip8KpcmRxVP6zuFWExWziHYZpJ0acX7TxqX95KBpg==}
+  /electron-to-chromium@1.4.537:
+    resolution: {integrity: sha512-W1+g9qs9hviII0HAwOdehGYkr+zt7KKdmCcJcjH0mYg6oL8+ioT3Skjmt7BLoAQqXhjf40AXd+HlR4oAWMlXjA==}
     dev: true
 
   /emoji-regex@9.2.2:
@@ -2904,8 +2904,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /magic-string@0.30.3:
-    resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==}
+  /magic-string@0.30.4:
+    resolution: {integrity: sha512-Q/TKtsC5BPm0kGqgBIF9oXAs/xEf2vRKiIB4wCRQTJOQIByZ1d+NnUOotvJOvNpi5RNIgVOMC3pOuaP1ZTDlVg==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -3127,29 +3127,29 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /postcss-import@15.1.0(postcss@8.4.30):
+  /postcss-import@15.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.30
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.6
     dev: true
 
-  /postcss-js@4.0.1(postcss@8.4.30):
+  /postcss-js@4.0.1(postcss@8.4.31):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.30
+      postcss: 8.4.31
     dev: true
 
-  /postcss-load-config@4.0.1(postcss@8.4.30):
+  /postcss-load-config@4.0.1(postcss@8.4.31):
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -3162,17 +3162,17 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.30
-      yaml: 2.3.1
+      postcss: 8.4.31
+      yaml: 2.3.2
     dev: true
 
-  /postcss-nested@6.0.1(postcss@8.4.30):
+  /postcss-nested@6.0.1(postcss@8.4.31):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.30
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.13
     dev: true
 
@@ -3188,8 +3188,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.30:
-    resolution: {integrity: sha512-7ZEao1g4kd68l97aWG/etQKPKq07us0ieSZ2TnFDk11i0ZfDW2AwKHYU8qv4MZKqN2fdBfg+7q0ES06UA73C1g==}
+  /postcss@8.4.31:
+    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -3615,7 +3615,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.5.2(@babel/core@7.23.0)(postcss@8.4.30)(svelte@4.2.1):
+  /svelte-check@3.5.2(@babel/core@7.23.0)(postcss@8.4.31)(svelte@4.2.1):
     resolution: {integrity: sha512-5a/YWbiH4c+AqAUP+0VneiV5bP8YOk9JL3jwvN+k2PEPLgpu85bjQc5eE67+eIZBBwUEJzmO3I92OqKcqbp3fw==}
     hasBin: true
     peerDependencies:
@@ -3628,7 +3628,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.2.1
-      svelte-preprocess: 5.0.4(@babel/core@7.23.0)(postcss@8.4.30)(svelte@4.2.1)(typescript@5.2.2)
+      svelte-preprocess: 5.0.4(@babel/core@7.23.0)(postcss@8.4.31)(svelte@4.2.1)(typescript@5.2.2)
       typescript: 5.2.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -3651,7 +3651,7 @@ packages:
       svelte: 4.2.1
     dev: true
 
-  /svelte-preprocess@5.0.4(@babel/core@7.23.0)(postcss@8.4.30)(svelte@4.2.1)(typescript@5.2.2):
+  /svelte-preprocess@5.0.4(@babel/core@7.23.0)(postcss@8.4.31)(svelte@4.2.1)(typescript@5.2.2):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -3693,7 +3693,7 @@ packages:
       '@types/pug': 2.0.7
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      postcss: 8.4.30
+      postcss: 8.4.31
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.1
@@ -3715,7 +3715,7 @@ packages:
       estree-walker: 3.0.3
       is-reference: 3.0.2
       locate-character: 3.0.0
-      magic-string: 0.30.3
+      magic-string: 0.30.4
       periscopic: 3.1.0
     dev: true
 
@@ -3746,11 +3746,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.4.30
-      postcss-import: 15.1.0(postcss@8.4.30)
-      postcss-js: 4.0.1(postcss@8.4.30)
-      postcss-load-config: 4.0.1(postcss@8.4.30)
-      postcss-nested: 6.0.1(postcss@8.4.30)
+      postcss: 8.4.31
+      postcss-import: 15.1.0(postcss@8.4.31)
+      postcss-js: 4.0.1(postcss@8.4.31)
+      postcss-load-config: 4.0.1(postcss@8.4.31)
+      postcss-nested: 6.0.1(postcss@8.4.31)
       postcss-selector-parser: 6.0.13
       resolve: 1.22.6
       sucrase: 3.34.0
@@ -3801,13 +3801,13 @@ packages:
     hasBin: true
     dev: true
 
-  /update-browserslist-db@1.0.13(browserslist@4.22.0):
+  /update-browserslist-db@1.0.13(browserslist@4.22.1):
     resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.22.0
+      browserslist: 4.22.1
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: true
@@ -3851,8 +3851,8 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vidstack@1.0.0:
-    resolution: {integrity: sha512-02DQdD/g9TYNGtxGq9BDH2PfO90WrMx3QaQsG9kFD1K2VFgL2lkWaD0wRuOTKdjkE1A0JAre+Rtpt3x1faS+sA==}
+  /vidstack@1.0.4:
+    resolution: {integrity: sha512-1vWfj8VFe1T78e5WYMppVBjksM8S189IyhUloyiy8eG72h3lisGwzIOK4MX8MDYsNBopiNP0ja3CrPdnBF4THQ==}
     engines: {node: '>=18'}
     dependencies:
       media-captions: 1.0.0
@@ -3871,13 +3871,13 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.7.12
       solid-refresh: 0.5.3(solid-js@1.7.12)
-      vite: 4.4.9(@types/node@16.18.54)
+      vite: 4.4.9(@types/node@16.18.55)
       vitefu: 0.2.4(vite@4.4.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.4.9(@types/node@16.18.54):
+  /vite@4.4.9(@types/node@16.18.55):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3905,9 +3905,9 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 16.18.54
+      '@types/node': 16.18.55
       esbuild: 0.18.20
-      postcss: 8.4.30
+      postcss: 8.4.31
       rollup: 3.29.4
     optionalDependencies:
       fsevents: 2.3.3
@@ -3921,7 +3921,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.9(@types/node@16.18.54)
+      vite: 4.4.9(@types/node@16.18.55)
     dev: true
 
   /vue-template-compiler@2.7.14:
@@ -3983,5 +3983,10 @@ packages:
 
   /yaml@2.3.1:
     resolution: {integrity: sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==}
+    engines: {node: '>= 14'}
+    dev: true
+
+  /yaml@2.3.2:
+    resolution: {integrity: sha512-N/lyzTPaJasoDmfV7YTrYCI0G/3ivm/9wdG0aHuheKowWQwGTsK0Eoiw6utmzAnI6pkJa0DUVygvp3spqqEKXg==}
     engines: {node: '>= 14'}
     dev: true
