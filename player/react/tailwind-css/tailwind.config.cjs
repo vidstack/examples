@@ -14,7 +14,7 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-animate'),
-    require('vidstack/tailwind.cjs')({
+    require('@vidstack/react/tailwind.cjs')({
       prefix: 'media',
     }),
     customVariants,
