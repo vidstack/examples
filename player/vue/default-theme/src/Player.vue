@@ -115,7 +115,6 @@ function changeSource(type: string) {
   --media-brand: #f5f5f5;
   --media-focus-ring-color: #4e9cf6;
   --media-focus-ring: 0 0 0 3px var(--media-focus-ring-color);
-  width: 100%;
 }
 
 .player[data-view-type='audio'] {
@@ -131,7 +130,6 @@ function changeSource(type: string) {
 .player[data-view-type='video'] {
   --media-tooltip-y-offset: 30px;
   --media-menu-y-offset: 30px;
-  width: 100%;
   aspect-ratio: 16 /9;
   background-color: #212121;
   border-radius: var(--media-border-radius);

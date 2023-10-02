@@ -84,7 +84,6 @@ function onCanPlay(event: MediaCanPlayEvent) {
   --media-tooltip-y-offset: 30px;
   --media-menu-y-offset: 30px;
 
-  width: 100%;
   aspect-ratio: 16 /9;
   background-color: #212121;
   border-radius: var(--media-border-radius);

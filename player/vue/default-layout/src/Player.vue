@@ -115,8 +115,6 @@ function changeSource(type: string) {
   --video-border-radius: 2px;
 
   /* 👉 https://vidstack.io/docs/player/components/layouts/default#css-variables for more. */
-
-  width: 100%;
 }
 
 .player[data-view-type='video'] {

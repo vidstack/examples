@@ -114,8 +114,6 @@
 
     /* 👉 https://vidstack.io/docs/player/components/layouts/default#css-variables for more. */
 
-    width: 100%;
-
     &[data-view-type='video'] {
       aspect-ratio: 16 /9;
     }

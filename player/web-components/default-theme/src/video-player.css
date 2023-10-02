@@ -10,7 +10,6 @@ media-player[data-view-type='video'] {
   --media-menu-y-offset: 30px;
 
   contain: layout;
-  width: 100%;
   aspect-ratio: 16 / 9;
   background-color: #212121;
   border-radius: var(--media-border-radius);

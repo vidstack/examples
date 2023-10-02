@@ -19,7 +19,6 @@ media-player[data-view-type='video'] {
   --media-menu-y-offset: 30px;
 
   font-family: sans-serif;
-  width: 100%;
   aspect-ratio: 16 / 9;
   color: #f5f5f5;
   background-color: #212121;
