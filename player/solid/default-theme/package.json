@@ -11,7 +11,7 @@
   "dependencies": {
     "media-icons": "^1.0.0",
     "solid-js": "^1.7.11",
-    "vidstack": "^1.1.8"
+    "vidstack": "^1.1.9"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
