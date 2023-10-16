@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vidstack": "^1.1.9"
+    "vidstack": "^1.2.0"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
