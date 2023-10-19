@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vidstack/react": "^1.4.0",
+    "@vidstack/react": "^1.4.1",
     "media-icons": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
