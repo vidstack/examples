@@ -10,11 +10,7 @@ export function VolumeSlider() {
       </div>
       <SliderThumb />
       <SliderPreview noClamp>
-        <media-slider-value
-          class="rounded-sm bg-black px-2 py-px text-[13px] font-medium"
-          type="pointer"
-          format="percent"
-        />
+        <media-slider-value class="rounded-sm bg-black px-2 py-px text-[13px] font-medium" />
       </SliderPreview>
     </media-volume-slider>
   );

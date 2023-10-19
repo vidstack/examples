@@ -10,7 +10,7 @@ export function VolumeSlider() {
       <div class={`${styles.track} ${styles.trackFill}`} />
       <SliderThumb />
       <SliderPreview noClamp>
-        <media-slider-value class={styles.value} type="pointer" format="percent" />
+        <media-slider-value class={styles.value} />
       </SliderPreview>
     </media-volume-slider>
   );

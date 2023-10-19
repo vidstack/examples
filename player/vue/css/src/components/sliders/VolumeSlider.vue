@@ -9,7 +9,7 @@ import SliderThumb from './SliderThumb.vue';
     <div class="track-fill track" />
     <SliderThumb />
     <SliderPreview no-clamp>
-      <media-slider-value class="value" type="pointer" format="percent" />
+      <media-slider-value class="value" />
     </SliderPreview>
   </media-volume-slider>
 </template>

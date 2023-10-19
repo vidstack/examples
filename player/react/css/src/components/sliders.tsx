@@ -8,7 +8,7 @@ export function Volume() {
       <VolumeSlider.Track className={styles.track} />
       <VolumeSlider.TrackFill className={`${styles.trackFill} ${styles.track}`} />
       <VolumeSlider.Preview className={styles.preview} noClamp>
-        <VolumeSlider.Value className={styles.volumeValue} type="pointer" format="percent" />
+        <VolumeSlider.Value className={styles.volumeValue} />
       </VolumeSlider.Preview>
       <VolumeSlider.Thumb className={styles.thumb} />
     </VolumeSlider.Root>
@@ -45,7 +45,7 @@ export function Time({ thumbnails }: TimeSliderProps) {
 
         <TimeSlider.ChapterTitle className={styles.chapterTitle} />
 
-        <TimeSlider.Value className={styles.timeValue} type="pointer" format="time" />
+        <TimeSlider.Value className={styles.timeValue} />
       </TimeSlider.Preview>
     </TimeSlider.Root>
   );

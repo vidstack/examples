@@ -28,7 +28,7 @@ const { thumbnails } = defineProps<{
 
       <div class="vds-slider-chapter-title" data-part="chapter-title" />
 
-      <media-slider-value class="vds-slider-value" type="pointer" format="time" />
+      <media-slider-value class="vds-slider-value" />
     </media-slider-preview>
   </media-time-slider>
 </template>

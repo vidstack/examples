@@ -6,7 +6,7 @@ export function Volume() {
       <VolumeSlider.Track className="vds-slider-track" />
       <VolumeSlider.TrackFill className="vds-slider-track-fill vds-slider-track" />
       <VolumeSlider.Preview className="vds-slider-preview" noClamp>
-        <VolumeSlider.Value className="vds-slider-value" type="pointer" format="percent" />
+        <VolumeSlider.Value className="vds-slider-value" />
       </VolumeSlider.Preview>
       <VolumeSlider.Thumb className="vds-slider-thumb" />
     </VolumeSlider.Root>
@@ -46,7 +46,7 @@ export function Time({ thumbnails }: TimeSliderProps) {
 
         <TimeSlider.ChapterTitle className="vds-slider-chapter-title" />
 
-        <TimeSlider.Value className="vds-slider-value" type="pointer" format="time" />
+        <TimeSlider.Value className="vds-slider-value" />
       </TimeSlider.Preview>
     </TimeSlider.Root>
   );

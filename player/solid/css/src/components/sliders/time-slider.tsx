@@ -11,7 +11,7 @@ export function TimeSlider(props: TimeSliderProps) {
       <SliderThumb />
       <SliderPreview thumbnails={props.thumbnails}>
         <div class={styles.chapterTitle} data-part="chapter-title" />
-        <media-slider-value class={styles.value} type="pointer" format="time" />
+        <media-slider-value class={styles.value} />
       </SliderPreview>
     </media-time-slider>
   );

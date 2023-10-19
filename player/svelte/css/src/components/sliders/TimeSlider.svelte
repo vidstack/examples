@@ -11,7 +11,7 @@
   <SliderThumb />
   <SliderPreview {thumbnails}>
     <div class="chapter-title" data-part="chapter-title" />
-    <media-slider-value class="value" type="pointer" format="time" />
+    <media-slider-value class="value" />
   </SliderPreview>
 </media-time-slider>
 
