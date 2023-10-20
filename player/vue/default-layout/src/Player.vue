@@ -117,6 +117,10 @@ function changeSource(type: string) {
   /* 👉 https://vidstack.io/docs/player/components/layouts/default#css-variables for more. */
 }
 
+.player[data-view-type='audio'] media-poster {
+  display: none;
+}
+
 .player[data-view-type='video'] {
   aspect-ratio: 16 /9;
 }

@@ -114,6 +114,10 @@
 
     /* 👉 https://vidstack.io/docs/player/components/layouts/default#css-variables for more. */
 
+    &[data-view-type='audio'] media-poster {
+      display: none;
+    }
+
     &[data-view-type='video'] {
       aspect-ratio: 16 /9;
     }
