@@ -10,7 +10,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "dependencies": {
-    "vidstack": "^1.4.5"
+    "vidstack": "^1.4.6"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.6",
