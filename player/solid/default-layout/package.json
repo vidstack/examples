@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "solid-js": "^1.7.11",
-    "vidstack": "^1.4.6"
+    "vidstack": "^1.4.7"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
