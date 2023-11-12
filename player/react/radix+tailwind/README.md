@@ -13,5 +13,5 @@ you up even more by providing you with easy to use media variants such as `media
 [radix]: https://www.radix-ui.com
 [lucide]: https://lucide.dev
 [tailwind]: https://tailwindcss.com
-[tailwind-plugin]: https://vidstack.io/docs/wc/player/styling/tailwind
+[tailwind-plugin]: https://vidstack.io/docs/player/styling/tailwind
 [stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/react/radix+tailwind?title=Vidstack%20Player%20-%20React%20%28Radix%20+%20Tailwind%20CSS%29&file=src/main.ts&showSidebar=1
