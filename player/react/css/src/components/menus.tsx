@@ -47,7 +47,7 @@ function CaptionSubmenu() {
   const options = useCaptionOptions(),
     hint = options.selectedTrack?.label ?? 'Off';
   return (
-    <Menu.Root label="Captions">
+    <Menu.Root>
       <SubmenuButton
         label="Captions"
         hint={hint}

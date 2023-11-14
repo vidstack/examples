@@ -53,7 +53,7 @@ function CaptionSubmenu() {
   const options = useCaptionOptions(),
     hint = options.selectedTrack?.label ?? 'Off';
   return (
-    <Menu.Root label="Captions">
+    <Menu.Root>
       <SubmenuButton
         label="Captions"
         hint={hint}
@@ -82,10 +82,7 @@ function Radio({ children, ...props }: RadioProps) {
       {...props}
     >
       <RadioButtonIcon className="h-4 w-4 text-white group-data-[checked]:hidden" />
-      <RadioButtonSelectedIcon
-        className="text-media-brand hidden h-4 w-4 group-data-[checked]:block"
-        type="radio-button-selected"
-      />
+      <RadioButtonSelectedIcon className="text-media-brand hidden h-4 w-4 group-data-[checked]:block" />
       <span className="ml-2">{children}</span>
     </Menu.Radio>
   );

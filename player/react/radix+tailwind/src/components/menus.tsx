@@ -85,10 +85,7 @@ function Radio({ children, ...props }: DropdownMenu.MenuRadioItemProps) {
       {...props}
     >
       <CircleIcon className="h-4 w-4 text-white group-data-[state=checked]:hidden" />
-      <CheckCircle
-        className="text-media-brand hidden h-4 w-4 group-data-[state=checked]:block"
-        type="radio-button-selected"
-      />
+      <CheckCircle className="text-media-brand hidden h-4 w-4 group-data-[state=checked]:block" />
       <span className="ml-2">{children}</span>
     </DropdownMenu.RadioItem>
   );
