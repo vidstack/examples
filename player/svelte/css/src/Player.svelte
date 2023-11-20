@@ -56,6 +56,7 @@
   title="Sprite Fight"
   src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
   crossorigin
+  playsinline
   on:provider-change={onProviderChange}
   on:can-play={onCanPlay}
   bind:this={player}

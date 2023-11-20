@@ -80,6 +80,7 @@
   title="Sprite Fight"
   {src}
   crossorigin
+  playsinline
   on:provider-change={onProviderChange}
   on:can-play={onCanPlay}
   bind:this={player}

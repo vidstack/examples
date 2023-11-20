@@ -76,6 +76,7 @@ function changeSource(type: string) {
     title="Sprite Fight"
     :src="$src"
     crossorigin
+    playsinline
     @provider-change="onProviderChange"
     @can-play="onCanPlay"
     ref="$player"

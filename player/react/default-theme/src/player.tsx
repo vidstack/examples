@@ -75,6 +75,7 @@ export function Player() {
         title="Sprite Fight"
         src={src}
         crossorigin
+        playsinline
         onProviderChange={onProviderChange}
         onCanPlay={onCanPlay}
         ref={player}

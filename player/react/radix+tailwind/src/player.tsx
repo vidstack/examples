@@ -50,6 +50,7 @@ export function Player() {
       title="Sprite Fight"
       src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
       crossorigin
+      playsinline
       onProviderChange={onProviderChange}
       onCanPlay={onCanPlay}
       ref={player}

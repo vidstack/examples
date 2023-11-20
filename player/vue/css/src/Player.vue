@@ -57,6 +57,7 @@ function onCanPlay(event: MediaCanPlayEvent) {
     title="Sprite Fight"
     src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
     crossorigin
+    playsinline
     @provider-change="onProviderChange"
     @can-play="onCanPlay"
     ref="$player"
