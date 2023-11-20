@@ -1,6 +1,14 @@
 <media-captions class="captions" />
 
 <style lang="postcss">
+  /**
+  * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  * You can also import the same styles from "vidstack/player/styles/default/captions.css"
+  *
+  * <media-captions class="vds-captions" />
+  * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  */
+
   .captions {
     /* Recommended settings in the WebVTT spec (https://www.w3.org/TR/webvtt1). */
     --cue-color: var(--media-cue-color, white);
