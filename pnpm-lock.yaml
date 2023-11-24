@@ -48,8 +48,8 @@ importers:
   player/react/css:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.5.7
-        version: 1.5.7(@types/react@18.2.37)(react@18.2.0)
+        specifier: ^1.6.0
+        version: 1.6.0(@types/react@18.2.37)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -79,8 +79,8 @@ importers:
   player/react/default-layout:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.5.7
-        version: 1.5.7(@types/react@18.2.37)(react@18.2.0)
+        specifier: ^1.6.0
+        version: 1.6.0(@types/react@18.2.37)(react@18.2.0)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -107,8 +107,8 @@ importers:
   player/react/default-theme:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.5.7
-        version: 1.5.7(@types/react@18.2.37)(react@18.2.0)
+        specifier: ^1.6.0
+        version: 1.6.0(@types/react@18.2.37)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -138,8 +138,8 @@ importers:
   player/react/radix+tailwind:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.5.7
-        version: 1.5.7(@types/react@18.2.37)(react@18.2.0)
+        specifier: ^1.6.0
+        version: 1.6.0(@types/react@18.2.37)(react@18.2.0)
       lucide-react:
         specifier: ^0.279.0
         version: 0.279.0(react@18.2.0)
@@ -190,8 +190,8 @@ importers:
   player/react/tailwind-css:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.5.7
-        version: 1.5.7(@types/react@18.2.37)(react@18.2.0)
+        specifier: ^1.6.0
+        version: 1.6.0(@types/react@18.2.37)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -239,8 +239,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.5
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -258,8 +258,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.5
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -280,8 +280,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.5
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -302,8 +302,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.5
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       autoprefixer:
         specifier: ^10.4.2
@@ -333,8 +333,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -361,8 +361,8 @@ importers:
   player/svelte/default-layout:
     dependencies:
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -392,8 +392,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -423,8 +423,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -463,8 +463,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
       vue:
         specifier: ^3.3.4
         version: 3.3.8(typescript@5.2.2)
@@ -485,8 +485,8 @@ importers:
   player/vue/default-layout:
     dependencies:
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
       vue:
         specifier: ^3.3.4
         version: 3.3.8(typescript@5.2.2)
@@ -510,8 +510,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
       vue:
         specifier: ^3.3.4
         version: 3.3.8(typescript@5.2.2)
@@ -535,8 +535,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
       vue:
         specifier: ^3.3.4
         version: 3.3.8(typescript@5.2.2)
@@ -572,8 +572,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -585,8 +585,8 @@ importers:
   player/web-components/default-layout:
     dependencies:
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -601,8 +601,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -617,8 +617,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.5.7
-        version: 1.5.7
+        specifier: ^1.6.0
+        version: 1.6.0
     devDependencies:
       autoprefixer:
         specifier: ^10.4.2
@@ -2066,8 +2066,8 @@ packages:
   /@types/scheduler@0.16.6:
     resolution: {integrity: sha512-Vlktnchmkylvc9SnwwwozTv04L/e1NykF5vgoQ0XTmI8DD+wxfjQuHuvHS3p0r2jz2x2ghPs2h1FVeDirIteWA==}
 
-  /@vidstack/react@1.5.7(@types/react@18.2.37)(react@18.2.0):
-    resolution: {integrity: sha512-lWNe/YIE7OwuBt5t/WxTWTkfrApJTHkUjCmufXSClSCaesv6AP6ojC+GaoagUmpbbY0lddybVQHgnxl7cBWd7g==}
+  /@vidstack/react@1.6.0(@types/react@18.2.37)(react@18.2.0):
+    resolution: {integrity: sha512-xen1YGtXKJOfTkwRzP9YGmEZXBjEG0+v7A7MiRTmsyAF3HrnrGTesm4utP0fIGJqqxc07mgoFafkvTVO/XLkHg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': ^18.0.0
@@ -3983,8 +3983,8 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vidstack@1.5.7:
-    resolution: {integrity: sha512-ZQqvjj0D5hr+feLPDw24intyCsOtYyBYrR75O0tv1SBy4hG1kuYSfpxONqnI0kPfbhmKxxFW8+n4a0Q4zwfZ3A==}
+  /vidstack@1.6.0:
+    resolution: {integrity: sha512-nIcWYIYlK5Iime5F8YpVjiTOtLLr//Mv7yrb1gC+gkK7s7pk7pXUDKYeFCSG9egrO+4XZA8dgI/PpK8HuV/DPQ==}
     engines: {node: '>=18'}
     dependencies:
       media-captions: 1.0.1
