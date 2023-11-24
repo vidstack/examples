@@ -66,6 +66,9 @@ function changeSource(type: string) {
     case 'hls':
       $src.value = `https://stream.mux.com/${muxPlaybackId}.m3u8`;
       break;
+    case 'youtube':
+      $src.value = 'youtube/_cMxraX_5RE';
+      break;
   }
 }
 </script>
@@ -99,6 +102,7 @@ function changeSource(type: string) {
     <button @click="changeSource('audio')">Audio</button>
     <button @click="changeSource('video')">Video</button>
     <button @click="changeSource('hls')">HLS</button>
+    <button @click="changeSource('youtube')">YouTube</button>
   </div>
 </template>
 

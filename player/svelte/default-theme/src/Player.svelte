@@ -71,6 +71,9 @@
       case 'hls':
         src = `https://stream.mux.com/${muxPlaybackId}.m3u8`;
         break;
+      case 'youtube':
+        src = 'youtube/_cMxraX_5RE';
+        break;
     }
   }
 </script>
@@ -108,6 +111,7 @@
   <button on:click={() => changeSource('audio')}>Audio</button>
   <button on:click={() => changeSource('video')}>Video</button>
   <button on:click={() => changeSource('hls')}>HLS</button>
+  <button on:click={() => changeSource('youtube')}>YouTube</button>
 </div>
 
 <style lang="postcss">
