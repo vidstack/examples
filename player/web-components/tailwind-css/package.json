@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "media-icons": "^1.0.0",
-    "vidstack": "^1.6.2"
+    "vidstack": "^1.7.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
