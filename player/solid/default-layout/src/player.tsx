@@ -72,6 +72,9 @@ export function Player() {
       case 'youtube':
         setSrc('youtube/_cMxraX_5RE');
         break;
+      case 'vimeo':
+        setSrc('vimeo/640499893');
+        break;
     }
   }
 
@@ -104,6 +107,7 @@ export function Player() {
         <button onClick={() => changeSource('video')}>Video</button>
         <button onClick={() => changeSource('hls')}>HLS</button>
         <button onClick={() => changeSource('youtube')}>YouTube</button>
+        <button onClick={() => changeSource('Vimeo')}>Vimeo</button>
       </div>
     </>
   );

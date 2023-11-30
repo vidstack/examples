@@ -69,6 +69,9 @@ function changeSource(type: string) {
     case 'youtube':
       $src.value = 'youtube/_cMxraX_5RE';
       break;
+    case 'vimeo':
+      $src.value = 'vimeo/640499893';
+      break;
   }
 }
 </script>
@@ -103,6 +106,7 @@ function changeSource(type: string) {
     <button @click="changeSource('video')">Video</button>
     <button @click="changeSource('hls')">HLS</button>
     <button @click="changeSource('youtube')">YouTube</button>
+    <button @click="changeSource('vimeo')">Vimeo</button>
   </div>
 </template>
 

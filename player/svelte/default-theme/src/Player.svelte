@@ -74,6 +74,9 @@
       case 'youtube':
         src = 'youtube/_cMxraX_5RE';
         break;
+      case 'vimeo':
+        src = 'vimeo/640499893';
+        break;
     }
   }
 </script>
@@ -112,6 +115,7 @@
   <button on:click={() => changeSource('video')}>Video</button>
   <button on:click={() => changeSource('hls')}>HLS</button>
   <button on:click={() => changeSource('youtube')}>YouTube</button>
+  <button on:click={() => changeSource('vimeo')}>Vimeo</button>
 </div>
 
 <style lang="postcss">

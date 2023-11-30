@@ -29,12 +29,14 @@ player.addEventListener('can-play', () => {
 const audioSrcButton = document.querySelector('#audio-src-button'),
   videoSrcButton = document.querySelector('#video-src-button'),
   hlsSrcButton = document.querySelector('#hls-src-button'),
-  ytSrcButton = document.querySelector('#yt-src-button');
+  youtubeSrcButton = document.querySelector('#youtube-src-button'),
+  vimeoSrcButton = document.querySelector('#vimeo-src-button');
 
 audioSrcButton?.addEventListener('click', () => changeSource('audio'));
 videoSrcButton?.addEventListener('click', () => changeSource('video'));
 hlsSrcButton?.addEventListener('click', () => changeSource('hls'));
-ytSrcButton?.addEventListener('click', () => changeSource('youtube'));
+youtubeSrcButton?.addEventListener('click', () => changeSource('youtube'));
+vimeoSrcButton?.addEventListener('click', () => changeSource('vimeo'));
 
 changeSource('audio');
 
@@ -52,6 +54,9 @@ function changeSource(type: string) {
       break;
     case 'youtube':
       player.src = 'youtube/_cMxraX_5RE';
+      break;
+    case 'vimeo':
+      player.src = 'vimeo/640499893';
       break;
   }
 }
