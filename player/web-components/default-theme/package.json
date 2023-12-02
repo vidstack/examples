@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "media-icons": "^1.0.0",
-    "vidstack": "^1.7.0"
+    "vidstack": "^1.8.1"
   },
   "devDependencies": {
     "typescript": "^5.3.0",
