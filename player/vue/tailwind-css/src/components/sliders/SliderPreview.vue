@@ -7,7 +7,7 @@ const { thumbnails, noClamp = false } = defineProps<{
 
 <template>
   <media-slider-preview
-    class="flex flex-col items-center opacity-0 transition-opacity duration-200 data-[visible]:opacity-100"
+    class="flex flex-col items-center opacity-0 transition-opacity duration-200 data-[visible]:opacity-100 pointer-events-none"
     :noClamp="noClamp"
   >
     <media-slider-thumbnail

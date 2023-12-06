@@ -86,7 +86,7 @@ export function Time({ thumbnails }: TimeSliderProps) {
 
       {/* Preview */}
       <div
-        className="flex flex-col items-center absolute opacity-0 data-[visible]:opacity-100 transition-opacity duration-200 will-change-[left]"
+        className="flex flex-col items-center absolute opacity-0 data-[visible]:opacity-100 transition-opacity duration-200 will-change-[left] pointer-events-none"
         ref={previewRef}
       >
         {thumbnails ? (

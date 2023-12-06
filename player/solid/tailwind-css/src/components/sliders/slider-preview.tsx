@@ -3,7 +3,7 @@ import { Show, type JSX } from 'solid-js';
 export function SliderPreview(props: SliderPreviewProps) {
   return (
     <media-slider-preview
-      class="flex flex-col items-center opacity-0 transition-opacity duration-200 data-[visible]:opacity-100"
+      class="flex flex-col items-center opacity-0 transition-opacity duration-200 data-[visible]:opacity-100 pointer-events-none"
       noClamp={props.noClamp}
     >
       <Show when={props.thumbnails}>

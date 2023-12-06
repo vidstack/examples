@@ -90,7 +90,7 @@
               ></div>
               <!-- Slider Preview -->
               <media-slider-preview
-                class="flex flex-col items-center opacity-0 transition-opacity duration-200 data-[visible]:opacity-100"
+                class="pointer-events-none flex flex-col items-center opacity-0 transition-opacity duration-200 data-[visible]:opacity-100"
               >
                 <media-slider-thumbnail
                   class="block h-[var(--thumbnail-height)] max-h-[160px] min-h-[80px] w-[var(--thumbnail-width)] min-w-[120px] max-w-[180px] overflow-hidden border border-white bg-black"
@@ -170,7 +170,7 @@
                 class="absolute left-[var(--slider-fill)] top-1/2 z-20 h-[15px] w-[15px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#cacaca] bg-white opacity-0 ring-white/40 transition-opacity will-change-[left] group-data-[active]:opacity-100 group-data-[dragging]:ring-4"
               ></div>
               <media-slider-preview
-                class="opacity-0 transition-opacity duration-200 data-[visible]:opacity-100"
+                class="pointer-events-none opacity-0 transition-opacity duration-200 data-[visible]:opacity-100"
                 no-clamp
                 offset="30"
               >
