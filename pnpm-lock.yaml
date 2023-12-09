@@ -48,8 +48,8 @@ importers:
   player/react/css:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.8.3
-        version: 1.8.3(@types/react@18.2.41)(react@18.2.0)
+        specifier: ^1.9.2
+        version: 1.9.2(@types/react@18.2.41)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -79,8 +79,8 @@ importers:
   player/react/default-layout:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.8.3
-        version: 1.8.3(@types/react@18.2.41)(react@18.2.0)
+        specifier: ^1.9.2
+        version: 1.9.2(@types/react@18.2.41)(react@18.2.0)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -107,8 +107,8 @@ importers:
   player/react/default-theme:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.8.3
-        version: 1.8.3(@types/react@18.2.41)(react@18.2.0)
+        specifier: ^1.9.2
+        version: 1.9.2(@types/react@18.2.41)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -138,8 +138,8 @@ importers:
   player/react/radix+tailwind:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.8.3
-        version: 1.8.3(@types/react@18.2.41)(react@18.2.0)
+        specifier: ^1.9.2
+        version: 1.9.2(@types/react@18.2.41)(react@18.2.0)
       lucide-react:
         specifier: ^0.279.0
         version: 0.279.0(react@18.2.0)
@@ -190,8 +190,8 @@ importers:
   player/react/tailwind-css:
     dependencies:
       '@vidstack/react':
-        specifier: ^1.8.3
-        version: 1.8.3(@types/react@18.2.41)(react@18.2.0)
+        specifier: ^1.9.2
+        version: 1.9.2(@types/react@18.2.41)(react@18.2.0)
       media-icons:
         specifier: ^1.0.0
         version: 1.0.0
@@ -239,8 +239,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.7
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       typescript:
         specifier: ^5.3.0
@@ -249,8 +249,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.4(@types/node@18.19.1)
       vite-plugin-solid:
-        specifier: ^2.7.2
-        version: 2.7.2(solid-js@1.8.7)(vite@5.0.4)
+        specifier: ^2.8.0
+        version: 2.8.0(solid-js@1.8.7)(vite@5.0.4)
 
   player/solid/default-layout:
     dependencies:
@@ -258,8 +258,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.7
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       typescript:
         specifier: ^5.3.0
@@ -268,8 +268,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.4(@types/node@18.19.1)
       vite-plugin-solid:
-        specifier: ^2.7.2
-        version: 2.7.2(solid-js@1.8.7)(vite@5.0.4)
+        specifier: ^2.8.0
+        version: 2.8.0(solid-js@1.8.7)(vite@5.0.4)
 
   player/solid/default-theme:
     dependencies:
@@ -280,8 +280,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.7
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       typescript:
         specifier: ^5.3.0
@@ -290,8 +290,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.4(@types/node@18.19.1)
       vite-plugin-solid:
-        specifier: ^2.7.2
-        version: 2.7.2(solid-js@1.8.7)(vite@5.0.4)
+        specifier: ^2.8.0
+        version: 2.8.0(solid-js@1.8.7)(vite@5.0.4)
 
   player/solid/tailwind-css:
     dependencies:
@@ -302,8 +302,8 @@ importers:
         specifier: ^1.7.11
         version: 1.8.7
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       autoprefixer:
         specifier: ^10.4.2
@@ -324,8 +324,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.4(@types/node@18.19.1)
       vite-plugin-solid:
-        specifier: ^2.7.2
-        version: 2.7.2(solid-js@1.8.7)(vite@5.0.4)
+        specifier: ^2.8.0
+        version: 2.8.0(solid-js@1.8.7)(vite@5.0.4)
 
   player/svelte/css:
     dependencies:
@@ -333,8 +333,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -361,8 +361,8 @@ importers:
   player/svelte/default-layout:
     dependencies:
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -392,8 +392,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -423,8 +423,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
@@ -463,8 +463,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
       vue:
         specifier: ^3.3.4
         version: 3.3.9(typescript@5.3.2)
@@ -485,8 +485,8 @@ importers:
   player/vue/default-layout:
     dependencies:
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
       vue:
         specifier: ^3.3.4
         version: 3.3.9(typescript@5.3.2)
@@ -510,8 +510,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
       vue:
         specifier: ^3.3.4
         version: 3.3.9(typescript@5.3.2)
@@ -535,8 +535,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
       vue:
         specifier: ^3.3.4
         version: 3.3.9(typescript@5.3.2)
@@ -572,8 +572,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       typescript:
         specifier: ^5.3.0
@@ -585,8 +585,8 @@ importers:
   player/web-components/default-layout:
     dependencies:
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       typescript:
         specifier: ^5.3.0
@@ -601,8 +601,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       typescript:
         specifier: ^5.3.0
@@ -617,8 +617,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       vidstack:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.9.2
+        version: 1.9.2
     devDependencies:
       autoprefixer:
         specifier: ^10.4.2
@@ -2066,8 +2066,8 @@ packages:
   /@types/scheduler@0.16.8:
     resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
 
-  /@vidstack/react@1.8.3(@types/react@18.2.41)(react@18.2.0):
-    resolution: {integrity: sha512-QCyHy6e3LpzfajtjrhJPXzGYbBrBCUE5qYAatKXX+nxWqRvspa0fJPlnGeWb+tg6DlDsgwDLFjGNWj8qUeUVXQ==}
+  /@vidstack/react@1.9.2(@types/react@18.2.41)(react@18.2.0):
+    resolution: {integrity: sha512-DP7D/uUbHml4xQypDygkrEr80FCRtloj8IFvbaH+xZmiADS3ruy+AngaegorpCyMoWTHEiyBV4EuPXrX2v2sZw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': ^18.0.0
@@ -3970,18 +3970,18 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vidstack@1.8.3:
-    resolution: {integrity: sha512-5EVOzKSPJZ1koExR+AMH6uDwh3avOPUgSqthMf75uqv0C/9H+svKB9aZZ2zhE1mDFSVMMjR1ltXciF8QZ2iGIw==}
+  /vidstack@1.9.2:
+    resolution: {integrity: sha512-R5HeJdbsK5eARaWk1RWTewP4fdjiXs7WHTYWgAGCFYMtgwfzr/aOj38mvYSk8W4UgXg/K+mpBz3BcZOqm+8o7Q==}
     engines: {node: '>=18'}
     dependencies:
       media-captions: 1.0.2
     dev: false
 
-  /vite-plugin-solid@2.7.2(solid-js@1.8.7)(vite@5.0.4):
-    resolution: {integrity: sha512-GV2SMLAibOoXe76i02AsjAg7sbm/0lngBlERvJKVN67HOrJsHcWgkt0R6sfGLDJuFkv2aBe14Zm4vJcNME+7zw==}
+  /vite-plugin-solid@2.8.0(solid-js@1.8.7)(vite@5.0.4):
+    resolution: {integrity: sha512-n5FAm7ZmTl94VWUoiJCgG7bouF2NlC9CA1wY/qbVnkFbYDWk++bFWyNoU48aLJ+lMtzNeYzJypJXOHzFKxL9xA==}
     peerDependencies:
       solid-js: ^1.7.2
-      vite: ^3.0.0 || ^4.0.0
+      vite: ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
       '@babel/core': 7.23.5
       '@babel/preset-typescript': 7.23.3(@babel/core@7.23.5)
