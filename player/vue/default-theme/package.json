@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "media-icons": "^1.0.0",
-    "vidstack": "^1.9.3",
+    "vidstack": "^1.9.4",
     "vue": "^3.3.4"
   },
   "devDependencies": {
