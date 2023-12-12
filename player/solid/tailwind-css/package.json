@@ -11,7 +11,7 @@
   "dependencies": {
     "media-icons": "^1.0.0",
     "solid-js": "^1.7.11",
-    "vidstack": "^1.9.4"
+    "vidstack": "^1.9.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

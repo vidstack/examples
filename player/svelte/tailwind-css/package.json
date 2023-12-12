@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "media-icons": "^1.0.0",
-    "vidstack": "^1.9.4"
+    "vidstack": "^1.9.6"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
