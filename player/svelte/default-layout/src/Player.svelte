@@ -55,16 +55,15 @@
   }
 
   function changeSource(type: string) {
-    const muxPlaybackId = 'VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU';
     switch (type) {
       case 'audio':
         src = 'https://media-files.vidstack.io/sprite-fight/audio.mp3';
         break;
       case 'video':
-        src = `https://stream.mux.com/${muxPlaybackId}/low.mp4`;
+        src = 'https://media-files.vidstack.io/sprite-fight/720p.mp4';
         break;
       case 'hls':
-        src = `https://stream.mux.com/${muxPlaybackId}.m3u8`;
+        src = 'https://media-files.vidstack.io/sprite-fight/hls/stream.m3u8';
         break;
       case 'youtube':
         src = 'youtube/_cMxraX_5RE';
@@ -80,8 +79,8 @@
   class="player"
   title="Sprite Fight"
   {src}
-  crossorigin
-  playsinline
+  crossOrigin
+  playsInline
   on:provider-change={onProviderChange}
   on:can-play={onCanPlay}
   bind:this={player}
@@ -89,15 +88,13 @@
   <media-provider>
     <media-poster
       class="vds-poster"
-      src="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/thumbnail.webp?time=268&width=1200"
+      src="https://media-files.vidstack.io/sprite-fight/poster.webp"
       alt="Girl walks into campfire with gnomes surrounding her friend ready for their next meal!"
     />
   </media-provider>
   <!-- Layouts -->
   <media-audio-layout />
-  <media-video-layout
-    thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt"
-  />
+  <media-video-layout thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
 </media-player>
 
 <div class="src-buttons">

@@ -41,16 +41,15 @@ vimeoSrcButton?.addEventListener('click', () => changeSource('vimeo'));
 changeSource('audio');
 
 function changeSource(type: string) {
-  const muxPlaybackId = 'VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU';
   switch (type) {
     case 'audio':
       player.src = 'https://media-files.vidstack.io/sprite-fight/audio.mp3';
       break;
     case 'video':
-      player.src = `https://stream.mux.com/${muxPlaybackId}/low.mp4`;
+      player.src = 'https://media-files.vidstack.io/sprite-fight/720p.mp4';
       break;
     case 'hls':
-      player.src = `https://stream.mux.com/${muxPlaybackId}.m3u8`;
+      player.src = 'https://media-files.vidstack.io/sprite-fight/hls/stream.m3u8';
       break;
     case 'youtube':
       player.src = 'youtube/_cMxraX_5RE';

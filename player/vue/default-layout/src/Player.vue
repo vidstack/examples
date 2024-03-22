@@ -55,16 +55,15 @@ function onCanPlay(event: MediaCanPlayEvent) {
 }
 
 function changeSource(type: string) {
-  const muxPlaybackId = 'VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU';
   switch (type) {
     case 'audio':
       $src.value = 'https://media-files.vidstack.io/sprite-fight/audio.mp3';
       break;
     case 'video':
-      $src.value = `https://stream.mux.com/${muxPlaybackId}/low.mp4`;
+      $src.value = 'https://media-files.vidstack.io/sprite-fight/720p.mp4';
       break;
     case 'hls':
-      $src.value = `https://stream.mux.com/${muxPlaybackId}.m3u8`;
+      $src.value = 'https://media-files.vidstack.io/sprite-fight/hls/stream.m3u8';
       break;
     case 'youtube':
       $src.value = 'youtube/_cMxraX_5RE';
@@ -81,8 +80,8 @@ function changeSource(type: string) {
     class="player"
     title="Sprite Fight"
     :src="$src"
-    crossorigin
-    playsinline
+    crossOrigin
+    playsInline
     @provider-change="onProviderChange"
     @can-play="onCanPlay"
     ref="$player"
@@ -90,15 +89,13 @@ function changeSource(type: string) {
     <media-provider>
       <media-poster
         class="vds-poster"
-        src="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/thumbnail.webp?time=268&width=1200"
+        src="https://media-files.vidstack.io/sprite-fight/poster.webp"
         alt="Girl walks into campfire with gnomes surrounding her friend ready for their next meal!"
       />
     </media-provider>
     <!-- Layouts -->
     <media-audio-layout />
-    <media-video-layout
-      thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt"
-    />
+    <media-video-layout thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
   </media-player>
 
   <div class="src-buttons">

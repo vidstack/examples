@@ -57,9 +57,9 @@ export function Player() {
     <media-player
       class={styles.player}
       title="Sprite Fight"
-      src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
-      crossorigin
-      playsinline
+      src="https://media-files.vidstack.io/sprite-fight/720p.mp4"
+      crossOrigin
+      playsInline
       on:provider-change={onProviderChange}
       on:can-play={onCanPlay}
       ref={player}
@@ -67,12 +67,12 @@ export function Player() {
       <media-provider>
         <media-poster
           class={styles.poster}
-          src="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/thumbnail.webp?time=268&width=1200"
+          src="https://media-files.vidstack.io/sprite-fight/poster.webp"
           alt="Girl walks into campfire with gnomes surrounding her friend ready for their next meal!"
         />
       </media-provider>
 
-      <VideoLayout thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt" />
+      <VideoLayout thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
     </media-player>
   );
 }

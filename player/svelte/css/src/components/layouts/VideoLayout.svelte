@@ -19,9 +19,7 @@
 <media-controls class="controls">
   <div class="spacer" />
   <media-controls-group class="controls-group">
-    <TimeSlider
-      thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt"
-    />
+    <TimeSlider thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
   </media-controls-group>
   <media-controls-group class="controls-group">
     <PlayButton tooltipPlacement="top start" />

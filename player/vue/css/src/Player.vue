@@ -55,9 +55,9 @@ function onCanPlay(event: MediaCanPlayEvent) {
   <media-player
     class="player"
     title="Sprite Fight"
-    src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
-    crossorigin
-    playsinline
+    src="https://media-files.vidstack.io/sprite-fight/720p.mp4"
+    crossOrigin
+    playsInline
     @provider-change="onProviderChange"
     @can-play="onCanPlay"
     ref="$player"
@@ -65,14 +65,12 @@ function onCanPlay(event: MediaCanPlayEvent) {
     <media-provider>
       <media-poster
         class="poster"
-        src="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/thumbnail.webp?time=268&width=1200"
+        src="https://media-files.vidstack.io/sprite-fight/poster.webp"
         alt="Girl walks into campfire with gnomes surrounding her friend ready for their next meal!"
       />
     </media-provider>
 
-    <VideoLayout
-      thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt"
-    />
+    <VideoLayout thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
   </media-player>
 </template>
 
