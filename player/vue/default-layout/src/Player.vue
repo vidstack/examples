@@ -57,13 +57,13 @@ function onCanPlay(event: MediaCanPlayEvent) {
 function changeSource(type: string) {
   switch (type) {
     case 'audio':
-      $src.value = 'https://media-files.vidstack.io/sprite-fight/audio.mp3';
+      $src.value = 'https://files.vidstack.io/sprite-fight/audio.mp3';
       break;
     case 'video':
-      $src.value = 'https://media-files.vidstack.io/sprite-fight/720p.mp4';
+      $src.value = 'https://files.vidstack.io/sprite-fight/720p.mp4';
       break;
     case 'hls':
-      $src.value = 'https://media-files.vidstack.io/sprite-fight/hls/stream.m3u8';
+      $src.value = 'https://files.vidstack.io/sprite-fight/hls/stream.m3u8';
       break;
     case 'youtube':
       $src.value = 'youtube/_cMxraX_5RE';
@@ -89,13 +89,13 @@ function changeSource(type: string) {
     <media-provider>
       <media-poster
         class="vds-poster"
-        src="https://media-files.vidstack.io/sprite-fight/poster.webp"
+        src="https://files.vidstack.io/sprite-fight/poster.webp"
         alt="Girl walks into campfire with gnomes surrounding her friend ready for their next meal!"
       />
     </media-provider>
     <!-- Layouts -->
     <media-audio-layout />
-    <media-video-layout thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
+    <media-video-layout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" />
   </media-player>
 
   <div class="src-buttons">

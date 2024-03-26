@@ -62,13 +62,13 @@
   function changeSource(type: string) {
     switch (type) {
       case 'audio':
-        src = 'https://media-files.vidstack.io/sprite-fight/audio.mp3';
+        src = 'https://files.vidstack.io/sprite-fight/audio.mp3';
         break;
       case 'video':
-        src = 'https://media-files.vidstack.io/sprite-fight/720p.mp4';
+        src = 'https://files.vidstack.io/sprite-fight/720p.mp4';
         break;
       case 'hls':
-        src = 'https://media-files.vidstack.io/sprite-fight/hls/stream.m3u8';
+        src = 'https://files.vidstack.io/sprite-fight/hls/stream.m3u8';
         break;
       case 'youtube':
         src = 'youtube/_cMxraX_5RE';
@@ -94,7 +94,7 @@
     {#if viewType === 'video'}
       <media-poster
         class="vds-poster"
-        src="https://media-files.vidstack.io/sprite-fight/poster.webp"
+        src="https://files.vidstack.io/sprite-fight/poster.webp"
         alt="Girl walks into campfire with gnomes surrounding her friend ready for their next meal!"
       />
     {/if}
@@ -103,7 +103,7 @@
   {#if viewType === 'audio'}
     <AudioLayout />
   {:else if viewType === 'video'}
-    <VideoLayout thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
+    <VideoLayout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" />
   {/if}
 </media-player>
 

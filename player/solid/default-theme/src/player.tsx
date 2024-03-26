@@ -68,13 +68,13 @@ export function Player() {
   function changeSource(type: string) {
     switch (type) {
       case 'audio':
-        setSrc('https://media-files.vidstack.io/sprite-fight/audio.mp3');
+        setSrc('https://files.vidstack.io/sprite-fight/audio.mp3');
         break;
       case 'video':
-        setSrc('https://media-files.vidstack.io/sprite-fight/720p.mp4');
+        setSrc('https://files.vidstack.io/sprite-fight/720p.mp4');
         break;
       case 'hls':
-        setSrc('https://media-files.vidstack.io/sprite-fight/hls/stream.m3u8');
+        setSrc('https://files.vidstack.io/sprite-fight/hls/stream.m3u8');
         break;
       case 'youtube':
         setSrc('youtube/_cMxraX_5RE');
@@ -100,7 +100,7 @@ export function Player() {
         <media-provider>
           <media-poster
             class="vds-poster"
-            src="https://media-files.vidstack.io/sprite-fight/poster.webp"
+            src="https://files.vidstack.io/sprite-fight/poster.webp"
             alt="Girl walks into campfire with gnomes surrounding her friend ready for their next meal!"
           />
         </media-provider>
@@ -111,7 +111,7 @@ export function Player() {
             <AudioLayout />
           </Match>
           <Match when={viewType() === 'video'}>
-            <VideoLayout thumbnails="https://media-files.vidstack.io/sprite-fight/thumbnails.vtt" />
+            <VideoLayout thumbnails="https://files.vidstack.io/sprite-fight/thumbnails.vtt" />
           </Match>
         </Switch>
       </media-player>
