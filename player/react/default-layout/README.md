@@ -10,3 +10,5 @@ customize the icons, branding, colors, and components to your liking.
 
 [default-layout]: https://vidstack.io/docs/player/components/layouts/default-layout
 [stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/react/default-layout?title=Vidstack%20Player%20-%20React%20%28Default%20Layout%29&file=src/main.ts&showSidebar=1
+[codeanywhere-link]: https://app.codeanywhere.com/#https://github.com/vidstack/examples/player/react/default-layout
+```

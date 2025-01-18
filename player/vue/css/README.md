@@ -9,5 +9,7 @@ attributes and support animations. This option is best when you want to build yo
 from scratch using vanilla CSS.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)][stackblitz-demo]
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][codeanywhere-link]
 
 [stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/vue/css?title=Vidstack%20Player%20-%20Vue%20%28CSS%29&file=src/main.ts&showSidebar=1
+[codeanywhere-link]: https://app.codeanywhere.com/#https://github.com/vidstack/examples/player/vue/css

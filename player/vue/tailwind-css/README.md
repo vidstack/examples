@@ -9,7 +9,10 @@ via data attributes and support animations. Our [optional plugin][tailwind-plugi
 you up even more by providing you with easy to use media variants such as `media-paused:opacity-0`.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)][stackblitz-demo]
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][codeanywhere-link]
 
 [tailwind]: https://tailwindcss.com
 [tailwind-plugin]: https://vidstack.io/docs/wc/player/styling/tailwind
 [stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/vue/tailwind-css?title=Vidstack%20Player%20-%20Vue%20%28Tailwind%20CSS%29&file=src/main.ts&showSidebar=1
+[codeanywhere-link]: https://app.codeanywhere.com/#https://github.com/vidstack/examples/player/vue/tailwind-css
+```
