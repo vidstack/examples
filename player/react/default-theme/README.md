@@ -8,5 +8,8 @@ design each component from zero. Our default styles have been built to be extrem
 customize! We provide the shell and base styles and you provide the content and customization.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)][stackblitz-demo]
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][codeanywhere-link]
 
 [stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/react/default-theme?title=Vidstack%20Player%20-%20React%20%28Default%20Theme%29&file=src/main.ts&showSidebar=1
+[codeanywhere-link]: https://app.codeanywhere.com/#https://github.com/vidstack/examples/player/react/default-theme
+```

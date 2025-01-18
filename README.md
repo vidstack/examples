@@ -18,3 +18,11 @@ Each example has a README which contains an "Open in StackBlitz" link. If you cl
 fork and launch the project in [StackBlitz](https://stackblitz.com). You can run the code, edit it,
 and preview it inside their development environment. This is the easiest way to start playing with
 the examples.
+
+### Codeanywhere
+
+You can also open the entire repository in [Codeanywhere](https://codeanywhere.com). Clicking the link below will fork **the entire repo**, not just a single example:
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][codeanywhere-link]
+
+[codeanywhere-link]: https://app.codeanywhere.com/#https://github.com/vidstack/examples
