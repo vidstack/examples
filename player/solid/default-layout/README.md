@@ -11,3 +11,11 @@ customize the icons, branding, colors, and components to your liking.
 
 [default-layout]: https://vidstack.io/docs/wc/player/components/layouts/default-layout
 [stackblitz-demo]: https://stackblitz.com/fork/github/vidstack/examples/tree/main/player/solid/default-layout?title=Vidstack%20Player%20-%20Solid%20%28Default%20Layout%29&file=src/main.ts&showSidebar=1
+
+### Codeanywhere
+
+You can also open the entire repository in [Codeanywhere](https://codeanywhere.com). Clicking the link below will fork **the entire repo**, not just a single example:
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)][codeanywhere-link]
+
+[codeanywhere-link]: https://app.codeanywhere.com/#https://github.com/vidstack/examples/player/solid
